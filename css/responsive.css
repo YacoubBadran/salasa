@@ -34,7 +34,7 @@
         line-height: 52px;
     }
     .about {
-        margin-top: -340px;
+        /* margin-top: -340px; */
     }
     .yelldark_colo {
         margin: 0 30px;
@@ -70,12 +70,11 @@
     }
     .banner_main {
         padding: 152px 0px 0px 0px;
-        background-color: #cacaca !important;
         background: inherit;
         min-height: 919px;
     }
     .about {
-        margin-top: 90px;
+        /* margin-top: 90px; */
     }
     .transfot h3 {
         font-size: 19px;
@@ -119,12 +118,14 @@
     .banner_slide {
         padding: 0 80px 0 0px;
     }
+    #mobile-logo {
+        display: inline !important;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
     .banner_main {
         padding: 152px 0px 90px 0px;
-        background-color: #cacaca !important;
         background: inherit;
     }
     .banner_slide {
@@ -137,7 +138,7 @@
         padding-top: 30px;
     }
     .about {
-        margin-top: 90px;
+        /* margin-top: 90px; */
     }
     #myCarousel a.carousel-control-prev {
         top: 34%;
@@ -193,6 +194,9 @@
     .titlepage h2 {
         font-size: 31px;
     }
+    #mobile-logo {
+        display: inline !important;
+    }
 }
 
 @media (max-width: 575px) {
@@ -208,7 +212,6 @@
     }
     .banner_main {
         padding: 152px 0px 90px 0px;
-        background-color: #cacaca !important;
         background: inherit;
     }
     .banner_slide {
@@ -223,7 +226,7 @@
         padding-top: 30px;
     }
     .about {
-        margin-top: 90px;
+        /* margin-top: 90px; */
     }
     .text-bg h1 {
         font-size: 36px;

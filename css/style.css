@@ -29,6 +29,18 @@
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
+.logo img {
+     height: 100px;
+     width: auto;
+}
+
+@media (max-width: 1199px) {
+     .logo img {
+          height: 70px;
+          width: auto;
+     }
+}
+
 .car-description p {
      font-size: 17px;
      line-height: 3rem;
@@ -352,8 +364,41 @@ ul.conat_info li a:hover {
 
 /** banner section **/
 
+.background-logo-img {
+     position: absolute;
+     top: 0;
+     right: 0;
+}
+
+@media (min-width: 1500px) {
+     .background-logo-img {
+          height: 90vh;
+          position: absolute;
+          top: 0;
+          right: 0;
+     }
+}
+
+@media (max-width: 1500px) {
+     .background-logo-img {
+          height: 80vh;
+     }
+}
+
+@media (max-width: 1300px) {
+     .background-logo-img {
+          height: 70vh;
+     }
+}
+
+@media (max-width: 1000px) {
+     .background-logo-img {
+          display: none;
+     }
+}
+
 .banner_main {
-     background: url(../images/banner-with-logo.png);
+     /* background: url(../images/banner-with-logo.png); */
      padding: 300px 0px 0px 0px;
      background-size: auto 78%;
      background-repeat: no-repeat;
@@ -523,7 +568,7 @@ ul.conat_info li a:hover {
 
 .about {
      background-color: #ffffff;
-     margin-top: -160px;
+     /* margin-top: -160px; */
 }
 
 .about .about_img figure {
