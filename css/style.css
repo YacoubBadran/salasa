@@ -73,11 +73,7 @@ html {
 }
 
 body {
-     color: #666666;
-     font-size: 14px;
      font-family: 'Poppins', sans-serif;
-     line-height: 1.80857;
-     font-weight: normal;
 }
 
 a {
@@ -152,14 +148,6 @@ h6 a {
 
 button:focus {
      outline: none;
-}
-
-ul,
-li,
-ol {
-     margin: 0px;
-     padding: 0px;
-     list-style: none;
 }
 
 p {
