@@ -29,6 +29,14 @@
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
+.car-thumbnails li a img {
+     object-fit: cover;
+}
+
+.car-info-table {
+     max-width: 400px;
+}
+
 .logo img {
      height: 100px;
      width: auto;
