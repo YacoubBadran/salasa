@@ -21,7 +21,7 @@
       loop: true,
       stagePadding: 0,
       margin: 0,
-      smartSpeed: 1500,
+      smartSpeed: 0,
       autoplay: false,
       dots: false,
       nav: false,
@@ -30,7 +30,7 @@
 
   $('.thumbnail li').each(function(slide_index){
       $(this).click(function(e) {
-          owl.trigger('to.owl.carousel',[slide_index,1500]);
+          owl.trigger('to.owl.carousel',[slide_index,0]);
           e.preventDefault();
       })
   })
